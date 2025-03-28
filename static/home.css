@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #f3ec78, #af4261);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #6a097d; 
+    font-size: 4em;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    border: 3px solid #ffb347; 
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #af4261; 
+    font-size: 15px;
+}
+
+input {
+    width: calc(100% - 28px);
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 2px solid #ffb347; 
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.4s ease; 
+    background-color: #fdfdfd;
+}
+
+input:focus {
+    border-color: #f76c6c; 
+    box-shadow: 0px 0px 8px rgba(247, 108, 108, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6a097d; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #dacc3e; 
+    color: #333; 
+}
+
+br {
+    display: block;
+    margin-bottom: 12px;
+}

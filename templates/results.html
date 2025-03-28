@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='results.css') }}">
+</head>
+<body>
+    <h1>Prediction Results</h1>
+    <div>
+        <h2>Predicted Concrete Strength:</h2>
+        <p>Linear Regression: {{ prediction_lr }} MPa</p>
+        <p>KNN Regression: {{ prediction_knn }} MPa</p>
+        <p>SVR: {{ prediction_svr }} MPa</p>
+    </div>
+    <div>
+        <h2>Model Metrics:</h2>
+        <h3>Linear Regression:</h3>
+        <p><strong>MSE:</strong> {{ (mse_lr / 100) * 100 | round(4) }}%</p>
+        <p><strong>RMSE:</strong> {{ rmse_lr }}</p>
+        <p><strong>R² Score:</strong> {{ (r2_lr * 100) | round(2) }}%</p>
+
+        <h3>KNN Regression:</h3>
+        <p><strong>MSE:</strong> {{ (mse_knn / 100) * 100 | round(4) }}%</p>
+        <p><strong>RMSE:</strong> {{ rmse_knn }}</p>
+        <p><strong>R² Score:</strong> {{ (r2_knn * 100) | round(2) }}%</p>
+
+        <h3>SVR:</h3>
+        <p><strong>MSE:</strong> {{ (mse_svr / 100) * 100 | round(4) }}%</p>
+        <p><strong>RMSE:</strong> {{ rmse_svr }}</p>
+        <p><strong>R² Score:</strong> {{ (r2_svr * 100) | round(2) }}%</p>
+    </div>
+</body>
+</html>
