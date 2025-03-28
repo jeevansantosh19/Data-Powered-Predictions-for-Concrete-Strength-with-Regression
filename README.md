@@ -15,16 +15,14 @@ This project demonstrates the prediction of concrete strength using multiple reg
 ## Screenshots
 
 ### Application Form
-![Application Form](![Screenshot_28-3-2025_20611_127 0 0 1](https://github.com/user-attachments/assets/77490a7e-1a98-4994-a712-d92fd1bb1b3b)
-)
+![Application Form](https://github.com/user-attachments/assets/77490a7e-1a98-4994-a712-d92fd1bb1b3b)
 
 ### Prediction Form Filled
-![Prediction Form Filled](![Screenshot_28-3-2025_2070_127 0 0 1](https://github.com/user-attachments/assets/55aedff6-b31c-43ff-bc6e-b6136fee696f)
-)
+![Prediction Form Filled](https://github.com/user-attachments/assets/55aedff6-b31c-43ff-bc6e-b6136fee696f)
 
 ### Prediction Results
-![Prediction Results](![Screenshot_28-3-2025_20715_127 0 0 1](https://github.com/user-attachments/assets/c1c3f1c9-83d9-4cd3-8153-b53e9091e866)
-)
+![Prediction Results](https://github.com/user-attachments/assets/c1c3f1c9-83d9-4cd3-8153-b53e9091e866)
+
 
 ## Models Used
 
